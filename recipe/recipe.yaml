@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: langsmith-mcp-server
-  version: "0.0.7"
+  version: "0.0.9"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langsmith_mcp_server-${{ version }}.tar.gz
-  sha256: b0bc26053b1541a2a0c2469398d252d7270c4944f8fbfa6ac2ad218fd93ce274
+  sha256: 54c37a59be3fbf84a1374955e022db71b4b92656a990d21bacd9b4628c048315
 
 build:
   number: 0
