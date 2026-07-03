@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: MCP server for Langsmith SDK integration
 
+This package provides a server for the LangSmith SDK integration with the MCP (Managed Compute Platform).
+
 Current build status
 ====================
 
