@@ -9,14 +9,17 @@ Package license: MIT
 
 Summary: MCP server for Langsmith SDK integration
 
+This package provides a server for the LangSmith SDK integration with the MCP (Managed Compute Platform).
+
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26660&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/langsmith-mcp-server-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/langsmith-mcp-server-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/langsmith-mcp-server-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
